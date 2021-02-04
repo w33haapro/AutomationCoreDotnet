@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>NashTech.Core</PackageId>
+    <Authors>_w33_haa_</Authors>
+    <Company>_w33_pro_</Company>
+    <Product>_w33_pro_core_</Product>
+    <Version>1.0.2</Version>
+    <NeutralLanguage>bin-NG</NeutralLanguage>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Core</AssemblyName>
+    <RootNamespace>Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="EPPlus" Version="5.5.0" />
+    <PackageReference Include="ExtentReports" Version="4.1.0" />
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="RestSharp" Version="106.11.7" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="Serilog.Sinks.Debug" Version="1.0.1" />
+    <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="8.4.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\Actions\Ui\DeviceApplication\" />
+  </ItemGroup>
+
+</Project>

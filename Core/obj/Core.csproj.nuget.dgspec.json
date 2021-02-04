@@ -1,0 +1,113 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/truongthibichhanh/Downloads/automation-test-core-framework-dotnet-core/Core/Core.csproj": {}
+  },
+  "projects": {
+    "/Users/truongthibichhanh/Downloads/automation-test-core-framework-dotnet-core/Core/Core.csproj": {
+      "version": "1.0.2",
+      "restore": {
+        "projectUniqueName": "/Users/truongthibichhanh/Downloads/automation-test-core-framework-dotnet-core/Core/Core.csproj",
+        "projectName": "NashTech.Core",
+        "projectPath": "/Users/truongthibichhanh/Downloads/automation-test-core-framework-dotnet-core/Core/Core.csproj",
+        "packagesPath": "/Users/truongthibichhanh/.nuget/packages/",
+        "outputPath": "/Users/truongthibichhanh/Downloads/automation-test-core-framework-dotnet-core/Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/truongthibichhanh/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
